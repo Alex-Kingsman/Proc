@@ -1,8 +1,4 @@
-# Proc
-
-
-
-Скрипт;
+Скрипт:
 
 
 
@@ -34,6 +30,7 @@ for pid in /proc/[0-9]*; do
         echo "PID: $PID | PPID: $PROC_PPID | STATE: $STATE | NAME: $NAME"
 
     fi
+	
 	
 	
 	
@@ -91,7 +88,7 @@ PID: 174 | PPID: 2 | STATE: I | NAME: kworker/u12:2-events_power_efficient
 PID: 1753 | PPID: 2 | STATE: I | NAME: kworker/0:1-cgwb_release
 PID: 18 | PPID: 2 | STATE: S | NAME: migration/0
 PID: 19 | PPID: 2 | STATE: S | NAME: idle_inject/0
-PID: 2 | PPID: 0 | STATE: S | NAME: kthreadd
+PID: 2 | PPID: 2 | STATE: S | NAME: kthreadd
 PID: 20 | PPID: 2 | STATE: S | NAME: cpuhp/0
 PID: 207 | PPID: 2 | STATE: I | NAME: kworker/R-kdmfl
 PID: 21 | PPID: 2 | STATE: S | NAME: cpuhp/1
